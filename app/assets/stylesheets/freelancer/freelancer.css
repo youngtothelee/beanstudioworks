@@ -46,30 +46,13 @@ hr.star-primary {
     text-align: center;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-size: 2em;
-}
 
 hr.star-light {
     border-color: #fff;
 }
 
-hr.star-light:after {
-    color: #fff;
-}
-
 hr.star-primary {
     border-color: #2c3e50;
-}
-
-hr.star-primary:after {
-    color: #2c3e50;
-    background-color: #fff;
 }
 
 .img-centered {
@@ -255,6 +238,19 @@ section.success a.active {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+}
+
+.btn-custom{
+    color:#fff !important;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active {
+    background: #2c3e50 !important;
+    color:#18bc9c !important;
+    border: solid 2px #18bc9c !important;
+
 }
 
 .btn-outline {
